@@ -1,0 +1,27 @@
+[
+    {
+        "service": "Interior work",
+        "image": "https://i.ibb.co/fk5wyj5/service-tab-01.png",
+        "description": "Interior design is the art and science of enhancing the interior of a building to achieve a healthier and more aesthetically pleasing environment for the people using the space. An interior designer is someone who plans, researches, coordinates, and manages such enhancement projects. Interior design is a multifaceted profession that includes conceptual development, space planning, site inspections, programming, research, communicating with the stakeholders of a project, construction management, and execution of the design."
+    },
+    {
+        "service": "2D/3D layouts",
+        "image": "https://i.ibb.co/jbgVZTf/service-tab-02.png",
+        "description": "2D and 3D plans are often viewed as competitors despite sharing the same goal. Both plans are designed to define layouts and features of a building or site’s design and arrangements. They are used by real estate agents and AEC professionals as an improved way to convey architectural plans.When comparing both types of plans from a visual perspective,3D may appear to be the clear winner. However, the simplicity of 2D plans may make this a closer battle than predicted."
+    },
+    {
+        "service": "Retail design",
+        "image": "https://i.ibb.co/fk5wyj5/service-tab-03.png",
+        "description": "Retail design is a creative and commercial discipline that combines several different areas of expertise together in the design and construction of retail space. Retail design is primarily a specialized practice of architecture and interior design; however, it also incorporates elements of industrial design, graphic design, ergonomics, and advertising. Retail design is a very specialized discipline due to the heavy demands placed on retail space. Because the primary purpose of retail space is to stock and sell product to consumers, the spaces must be designed in a way that promotes an enjoyable and hassle-free shopping experience for the consumer."
+    },
+    {
+        "service": "Exterior work",
+        "image": "https://i.ibb.co/fk5wyj5/service-tab-04.png",
+        "description": "Professional painters prepare and paint interior and exterior surfaces. They may work on residential or commercial properties. Job duties for professional painters include removing old paint, priming surfaces, choosing materials, selecting and mixing colors and cleaning up job sites. These individuals may also be responsible for managing employees, handling finances and ensuring customer satisfaction."
+    },
+    {
+        "service": "Accessory & material",
+        "image": "https://i.ibb.co/fk5wyj5/service-tab-05.png",
+        "description": "The outer surface of the avian eggshell is frequently covered by a distinct, pigmented layer which may cap or plug the pore canals. This layer occurs in a number of forms (Table 2.1), in contrast to the true shell which is similar in structure and chemical composition for all avian species. As a consequence, various terms have been used to describe the outer layer.It is now recognized that SAMs playa crucial role in maintaining the integrity of the shell's gaseous diffusion pathway against obstruction by nest debris, flooding with water and in reducing the probability of bacterial penetration of the shell post-oviposition. In this chapter, the chemical composition, structure and function of SAMs is discussed, with particular reference to the cuticle on the shell of the domestic chicken."
+    }
+]
