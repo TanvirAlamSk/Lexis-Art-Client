@@ -7,7 +7,7 @@ const MyComments = () => {
     const { user, logOut } = useContext(AuthContext)
 
     useEffect(() => {
-        fetch(`http://localhost:5000/myreview?email=${user?.email}`, {
+        fetch(`https://lexis-art-server.onrender.com/myreview?email=${user?.email}`, {
             headers: {
                 authorization: `Bearar ${localStorage.getItem("lexis-art")}`
             }

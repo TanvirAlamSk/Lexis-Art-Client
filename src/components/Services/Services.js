@@ -5,13 +5,13 @@ const Services = () => {
     const [names, setNames] = useState([]);
     const [service, setService] = useState("")
     useEffect(() => {
-        fetch("http://localhost:5000/services")
+        fetch("https://lexis-art-server.onrender.com/services")
             .then((response) => response.json())
             .then((data) => setNames(data))
     }, [])
 
     const handelServiceCard = (id) => {
-        fetch(`http://localhost:5000/service/${id}`)
+        fetch(`https://lexis-art-server.onrender.com/service/${id}`)
             .then((response) => response.json())
             .then((data) => setService(data))
     }

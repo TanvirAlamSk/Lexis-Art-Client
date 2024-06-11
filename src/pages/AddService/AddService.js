@@ -16,7 +16,7 @@ const AddService = () => {
         const description = event.target.description.value
         const newService = { service, image, description }
 
-        fetch("http://localhost:5000/services", {
+        fetch("https://lexis-art-server.onrender.com/services", {
             method: "POST",
             headers: {
                 "content-type": "application/json"

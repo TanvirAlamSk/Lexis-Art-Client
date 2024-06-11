@@ -24,11 +24,11 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/services", element: <Services></Services>,
-                loader: async () => fetch("http://localhost:5000/services")
+                loader: async () => fetch("https://lexis-art-server.onrender.com/services")
             },
             {
                 path: "/service/:id", element: <Service></Service>,
-                loader: async ({ params }) => fetch(`http://localhost:5000/service/${params.id}`)
+                loader: async ({ params }) => fetch(`https://lexis-art-server.onrender.com/service/${params.id}`)
             },
             {
                 path: "/addservice", element: <AddService></AddService>

@@ -40,7 +40,7 @@ const UserContext = ({ children }) => {
 
     // general function
     const jwtUtility = (userEmail) => {
-        fetch("http://localhost:5000/jwt", {
+        fetch("https://lexis-art-server.onrender.com/jwt", {
             method: "POST",
             headers: {
                 "content-type": "application/json"

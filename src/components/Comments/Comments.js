@@ -15,7 +15,7 @@ const Comments = ({ selectService }) => {
     }
 
     useEffect(() => {
-        fetch(`http://localhost:5000/comments/${_id}`)
+        fetch(`https://lexis-art-server.onrender.com/comments/${_id}`)
             .then((response) => response.json())
             .then((data) => setComments(data))
     }, [_id])
@@ -34,7 +34,7 @@ const Comments = ({ selectService }) => {
 
 
         if (userComment.length > 0) {
-            fetch(`http://localhost:5000/comments/${_id}`, {
+            fetch(`https://lexis-art-server.onrender.com/comments/${_id}`, {
                 method: "POST",
                 headers: {
                     "content-type": "application/json"
