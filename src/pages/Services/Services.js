@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 import ServiceCard from './ServiceCard/ServiceCard';
+import SecondaryLoader from '../../components/SecondaryLoader/SecondaryLoader';
 
 const Services = () => {
     const services = useLoaderData()
@@ -11,7 +12,11 @@ const Services = () => {
                 <p className='md:mx-40 lg:mx-80 my-10'>Our interior design services helped bring our clients' visions to life by transforming their spaces. See how our experts transformed these interiors. </p>
             </div>
             <div className='container mt-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-full mx-auto'>
-                {services.map((service) => <ServiceCard key={service._id} service={service}></ServiceCard>)}
+                {
+                    services.length === 0 ?
+                        <SecondaryLoader></SecondaryLoader>
+                        :
+                        services.map((service) => <ServiceCard key={service._id} service={service}></ServiceCard>)}
                 <div className="card card-compact bg-base-100 shadow-xl cursor-pointer ">
                     <div className="card-body flex justify-center items-center hover:text-slate-600 border-2">
                         <Link to="/addservice" className='block'>
