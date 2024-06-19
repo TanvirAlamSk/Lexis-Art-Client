@@ -15,9 +15,10 @@ const Projects = () => {
                 <h1 className='text-5xl font-serif'>The best source of interior design</h1>
                 <p className='mt-5 '>Our interior design services helped bring our clients visions to life by transforming their spaces. See how our experts transformed these interiors. It usually has a high ceiling, exposed beams, and open floor plan. </p>
             </div>
-            <div className='container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-6 w-full mx-auto'>
+            <div className={`container ${projects.length > 0 && "grid"} grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-6 w-full mx-auto`}>
                 {
-                    projects.length === 0 ?
+                    projects.length == 0
+                        ?
                         <SecondaryLoader></SecondaryLoader>
                         :
                         projects.reverse().slice(0, 3).map((project, i) => <Project

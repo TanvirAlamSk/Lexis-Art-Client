@@ -43,7 +43,6 @@ const Comments = ({ selectService }) => {
             })
                 .then((response) => response.json())
                 .then((data) => {
-                    console.log(data)
                     if (data.acknowledged) {
                         commentToast()
                         const newData = [...comments, commentItem]

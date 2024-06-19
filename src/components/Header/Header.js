@@ -1,8 +1,8 @@
 import React, { useContext, useState } from 'react';
 import logo from "../../assets/logo/photo_2023-09-11_19-06-40 (2).jpg"
 import { Link, NavLink } from 'react-router-dom';
-import "./Header.css"
 import { AuthContext } from '../../context/UserContext/UserContext';
+import "./Header.css"
 
 const Header = () => {
     const [hidden, setHidden] = useState(true)
